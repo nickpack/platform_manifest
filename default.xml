@@ -12,8 +12,8 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="Bluerise" revision="froyo-iphone" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="Bluerise" revision="froyo-iphone" />
 
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="froyo" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="froyo" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="216eb9c3482a0129836f0af668a6b9cde3643157" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="b8cab81b331395e706d9e4a9333538a07f9d7dc5" />
   <project path="hardware/alsa_sound" name="platform_hardware_alsa_sound" remote="Bluerise" revision="froyo-iphone" />
 
   <project path="build" name="platform/build">
