@@ -3,20 +3,18 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <remote  name="Bluerise"
-           fetch="git://github.com/Bluerise/" />
-  <remote  name="Nickpack"
-           fetch="git://github.com/nickpack/" />
+  <remote  name="iDroid"
+           fetch="git://github.com/iDroid-Project/" />
   <default revision="froyo"
            remote="korg" />
 
-  <project path="vendor/apple" name="idroid-vendor_apple" remote="nickpack" revision="froyo-iphone" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="Bluerise" revision="froyo-iphone" />
-  <project path="hardware/libhardware_legacy" name="idroid-platform_hardware_libhardware_legacy" remote="nickpack" revision="froyo-iphone" />
+  <project path="vendor/apple" name="vendor_apple" remote="iDroid" revision="froyo-iphone" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="iDroid" revision="froyo-iphone" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="iDroid" revision="froyo-iphone" />
 
   <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="216eb9c3482a0129836f0af668a6b9cde3643157" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="b8cab81b331395e706d9e4a9333538a07f9d7dc5" />
-  <project path="hardware/alsa_sound" name="idroid-platform_hardware_alsa_sound" remote="nickpack" revision="froyo-iphone" />
+  <project path="hardware/alsa_sound" name="platform_hardware_alsa_sound" remote="iDroid" revision="froyo-iphone" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
