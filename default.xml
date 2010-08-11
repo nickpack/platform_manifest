@@ -124,6 +124,7 @@
 
   <project path="ndk" name="platform/ndk" />
 
+  <project path="packages/apps/Superuser" name="Superuser" remote="iDroid" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -173,8 +174,8 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk"  revision="tools_r6"/>
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" remote="iDroid" revision="froyo-iphone" />
-  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/core" name="platform_system_core" remote="iDroid" />
+  <project path="system/extras" name="platform_system_extras" remote="iDroid" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
