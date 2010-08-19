@@ -169,7 +169,6 @@
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
-  <project path="packages/apps/Wallpapers" name="Wallpapers" remote="iDroid" />
   <project path="packages/apps/Rebooter" name="Rebooter" remote="iDroid" />
 
   <project path="prebuilt" name="platform/prebuilt" />
