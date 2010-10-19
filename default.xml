@@ -16,7 +16,7 @@
   <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="b8cab81b331395e706d9e4a9333538a07f9d7dc5" />
   <project path="hardware/alsa_sound" name="platform_hardware_alsa_sound" remote="iDroid" revision="froyo-iphone" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="platform_build" remote="iDroid">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
