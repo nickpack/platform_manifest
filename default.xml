@@ -108,6 +108,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/libncurses" name="platform_external_libncurses" remote="iDroid" revision="libncurses-5.7-froyo" />
   <project path="external/lsof" name="platform_external_lsof" remote="iDroid" revision="master" />
   <project path="external/bash" name="platform_external_bash" remote="iDroid" revision="bash-4.1-froyo" />
   <project path="external/busybox" name="platform_external_busybox" remote="iDroid" />
