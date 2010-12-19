@@ -127,7 +127,7 @@
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Superuser" name="Superuser" remote="iDroid" revision="eclair-froyo" />
-  <project path="packages/apps/ADWLauncher" name="ADWLauncher" remote="iDroid" />
+  <!--project path="packages/apps/ADWLauncher" name="ADWLauncher" remote="iDroid" /-->
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
