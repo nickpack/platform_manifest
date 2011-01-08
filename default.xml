@@ -11,7 +11,9 @@
   <project path="vendor/apple" name="vendor_apple" remote="iDroid" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="iDroid" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="iDroid" />
-
+  <project path="external/alsa-lib" name="platform_external/alsa-lib" remote="iDroid" />
+  <project path="external/alsa-utils" name="platform_external_alsa-utils" remote="iDroid" />
+  <project path="hardware/alsa_sound" name="platform_hardware_alsa_sound" remote="iDroid" />
   <project path="build" name="platform_build" remote="iDroid">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
