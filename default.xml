@@ -7,24 +7,16 @@
            fetch="git://github.com/iDroid-Project/" />
   <default revision="gingerbread"
            remote="korg" />
-
-  <project path="vendor/apple" name="vendor_apple" remote="iDroid" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="iDroid" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="iDroid" />
-  <project path="external/alsa-lib" name="platform_external_alsa-lib" remote="iDroid" />
-  <project path="external/alsa-utils" name="platform_external_alsa-utils" remote="iDroid" />
-  <project path="hardware/alsa_sound" name="platform_hardware_alsa_sound" remote="iDroid" />
   <project path="build" name="platform_build" remote="iDroid">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="cts" name="platform/cts" />
+    <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" remote="iDroid" name="platform_development" />
   <project path="device/common" name="device/common" />
+  <project path="external/alsa-lib" name="platform_external_alsa-lib" remote="iDroid" />
+  <project path="external/alsa-utils" name="platform_external_alsa-utils" remote="iDroid" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bash" name="platform_external_bash" remote="iDroid" />
@@ -42,7 +34,6 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
@@ -66,7 +57,6 @@
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jpeg" name="platform/external/jpeg" />
-  <!--project path="external/jsilver" name="platform/external/jsilver" revision="tools_r7" /-->
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
@@ -91,8 +81,6 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="platform/external/qemu" revision="tools_r7" />
-  <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -113,16 +101,13 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="iDroid" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/alsa_sound" name="platform_hardware_alsa_sound" remote="iDroid" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="iDroid" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
@@ -173,7 +158,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="sdk" name="platform/sdk" revision="tools_r7" />
+  <project path="sdk" name="platform/sdk" revision="tools_r9" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform_system_core" remote="iDroid" />
   <project path="system/extras" name="platform_system_extras" remote="iDroid" />
@@ -181,4 +166,5 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+  <project path="vendor/apple" name="vendor_apple" remote="iDroid" />
 </manifest>
